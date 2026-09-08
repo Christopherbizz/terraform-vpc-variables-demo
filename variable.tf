@@ -30,3 +30,8 @@ variable az1 {
 
     default = "us-east-1d"
 }
+
+variable "allowed_ssh_cidr" {
+  description = "CIDR block allowed to SSH into the instance"
+  default     = "YOUR.IP.HERE/32"
+}
